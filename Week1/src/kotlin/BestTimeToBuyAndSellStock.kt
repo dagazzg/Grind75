@@ -1,3 +1,5 @@
+package kotlin
+
 class BestTimeToBuyAndSellStock {
     fun maxProfit(prices: IntArray): Int {
         var lowestPrice = Int.MAX_VALUE

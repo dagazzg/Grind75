@@ -1,3 +1,5 @@
+package kotlin
+
 class InvertBinaryTree {
     fun invertTree(root: TreeNode?): TreeNode? {
         if (root == null) return null

@@ -1,3 +1,5 @@
+package kotlin
+
 class ValidPalindrome {
     fun isPalindrome(s: String): Boolean {
         var s = s.filter { it.isLetterOrDigit() }.toLowerCase() // deprecated but leetcode Kotlin doesn't have .lowercase()
